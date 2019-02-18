@@ -11,6 +11,7 @@ ARjs.MarkerControls = THREEx.ArMarkerControls = function(context, object3d, para
 	this.parameters = {
 		// size of the marker in meter
 		size : 1,
+		preset: 'custom',
 		// type of marker - ['pattern', 'barcode', 'unknown' ]
 		type : 'unknown',
 		// url of the pattern - IIF type='pattern'
